@@ -1,0 +1,658 @@
+    /* Etiquetas que aplican a todas las páginas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700px;
+}
+
+.topheader {
+
+    width: 100%;
+    background-color: #ffdd0f;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.topheader img {
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    float: left;
+    padding: 5px;
+}
+
+.topnav {
+    float: right;
+    line-height: 30px;
+}
+
+.topnav a {
+    font-size: 15px;
+    font-weight: 700px;
+
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+
+
+.middleheader {
+
+    height: 150px;
+}
+
+
+.middleheader img {
+    height: 140px;
+    width: 140px;
+}
+
+
+
+.navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+
+    background-color: #FFFFFF;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+a:hover {
+    color: grey;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #aa9d9d;
+    width: 100%;
+    height: 15 0px;
+    padding: 20px;
+
+    font-family: 'Fredoka', sans-serif;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas:
+        "contacto redesfooter copy"
+        "contacto redesfooter copy"
+    ;
+
+}
+
+.contacto {
+    margin-bottom: 10px;
+    padding: 5px;
+    grid-area: contacto;
+}
+
+.redesfooter {
+    margin-bottom: 10px;
+    padding: 5px;
+    grid-area: redesfooter;
+}
+
+.copy {
+    grid-area: copy;
+}
+
+.redesfooter h3 {
+    margin-bottom: 10px;
+}
+
+.contacto h3 {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fdfdfc;
+    padding: 3px;
+}
+
+.footer p {
+    color: #fdfdfc;
+    padding: 5px;
+}
+
+.footer h3 {
+    color: #fdfdfc;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+
+}
+
+.redesfooter img {
+    height: 30px;
+    width: 30px;
+}
+
+.copy p {
+    color: #fdfdfc;
+
+}
+
+
+.pfooter {
+    background-color: #ffdd0f;
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font font-weight: 300;
+
+}
+
+.pfooter a {
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font font-weight: 700;
+
+}
+
+*/
+/* Etiquetas del Index */
+
+header img {
+    max-width: 100%;
+    height: 300px;
+    padding-left: 200px;
+
+}
+
+
+.bannertop img {
+    margin-top: 50px;
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.d-block {
+    height: 60vh !important ;
+    object-fit: cover;
+}
+
+.secciones h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: grey;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    transition-timing-function: ease;
+
+
+}
+
+.secciones h2:hover {
+    color: black;
+}
+
+
+.card {
+    width: 150px;
+    height: 430px; 
+    color: grey;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+.btn-primary {
+    background-color: #ffdf0f7e;
+    color: #808080;
+    border-color: #ffdf0f7e;
+    --bs-btn-hover-color: #ffdd0f;
+    --bs-btn-hover-bg: #808080;
+    --bs-btn-hover-border-color: #808080;
+}
+
+
+
+.row {
+    background-color: #f1e9e9;
+    margin-bottom: 35px;
+    justify-content: space-around;
+   
+ 
+}
+
+.recetash {
+    background-color: #ffdf0f73;
+    color: #4b4848;
+    font-family: 'Fredoka', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.col-xl-4 img {
+    
+    height: 65vh;
+    width: 65vh;
+    object-fit: cover;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+  
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+   
+
+    .navegador {
+
+        flex-direction: column;
+        margin: 0px;
+
+
+    }
+
+    .navegador li {
+        padding: 5px;
+    }
+
+    
+
+    .footer {
+
+        width: 100%;
+        height: 350px;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "contacto"
+            "redesfooter"
+            "copy";
+        justify-content: center;
+    }
+
+    .contacto {
+        width: 100%;
+        grid-area: contacto;
+        text-align: center;
+        align-self: center;
+    }
+
+    .redesfooter {
+        width: 100%;
+        grid-area: redesfooter;
+        text-align: center;
+        align-self: center;
+    }
+
+    .copy {
+        width: 100%;
+        grid-area: copy;
+        text-align: center;
+        align-self: center;
+    }
+
+    .redesfooter h3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contacto h3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        width: 100%;
+        color: #fdfdfc;
+        padding: 3px;
+    }
+
+    .footer p {
+        width: 100%;
+        color: #fdfdfc;
+        padding: 5px;
+    }
+
+    .footer h3 {
+        width: 100%;
+        color: #fdfdfc;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 35px;
+
+
+    }
+
+    .redesfooter img {
+        height: 30px;
+        width: 30px;
+    }
+
+
+}
+
+
+#whatsapp {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Etiquetas de Mayoristas */
+
+.productosmayoristas {
+
+    background-color: #fdfdfc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-items: center;
+
+    display: grid;
+    grid-template-areas:
+        "productosm1 productosm2 productosm3 productosm4"
+        "productosm5 productosm6 productosm7 productosm8"
+
+    ;
+
+}
+
+.productosm1 {
+    grid-area: productosm1;
+}
+
+.productosm2 {
+    grid-area: productosm2;
+}
+
+.productosm3 {
+    grid-area: productosm3;
+}
+
+.productosm4 {
+    grid-area: productosm4;
+}
+
+.productosm5 {
+    grid-area: productosm5;
+}
+
+.productosm6 {
+    grid-area: productosm6;
+}
+
+.productosm7 {
+    grid-area: productosm7;
+}
+
+.productosm8 {
+    grid-area: productosm8;
+}
+
+
+
+
+.productosm {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+
+}
+
+.productosm img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain ;
+}
+
+.productosm h3 {
+    text-align: center;
+    color: rgb(100, 99, 99);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.productosm h4 {
+    text-align: center;
+    color: rgb(100, 99, 99);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .productosmayoristas {
+        grid-template-areas:
+        "productosm1 productosm2"
+        "productosm3 productosm4"
+        "productosm5 productosm6"
+        "productosm7 productosm8"
+
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .productosmayoristas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Etiquetas Cajas Semanales */
+
+.cajassemanales {
+    background-color: #fdfdfc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+
+
+.cajash {
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+
+}
+
+.cajash img {
+    width: 300px;
+    height:300px;
+}
+
+.cajash h3 {
+    width: 300px;
+    text-align: center;
+    
+    color: rgb(100, 99, 99);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.cajash h4 {
+    width: 300px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    color: rgb(100, 99, 99);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .cajassemanales {
+       
+        grid-template-columns: 100%;
+        grid-template-rows: 25%;
+    }
+}
+
+
+
+
+/* Etiquetas de Contacto */
+
+.form {
+    background-color: #fdfdfc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #4b4848;
+
+
+}
+
+.form label {
+    padding: 15px;
+   
+}
+
+.textoform input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.enviar {
+    margin-top: 15px;
+    margin-left: 165px;
+    margin-bottom: 25px;
+}
+
+.newsletter {
+    margin-left: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.radio {
+    margin-left: 55px; 
+   
+}
+
+.int {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.aceptar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/* Etiquetas de Nosotros */
+
+.seccionnosotros {
+    background-color: #fdfdfc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #4b4848;
+}
+
+.productores {
+    margin: 50px
+}
+
+.menosplastico {
+    margin: 50px
+}
+
+
+.productores h3 {
+    margin-bottom: 5px;
+}
+
+.menosplastico h3 {
+    margin-bottom: 5px;
+}
+
+/* Etiquetas de Mi Cuenta */
+
+.micuenta {
+    background-color: #fdfdfc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #4b4848;
+}
+
+.acceder h3 {
+    padding: 10px;
+    color: #4b4848;
+    font-weight: 500;
+}
+
+.form-text {
+    padding: 20px;
+}
+
+  
