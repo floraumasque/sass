@@ -19,62 +19,115 @@
         grid-area: contacto;
     }
 
-    .redesfooter {
-        margin-bottom: 10px;
-        padding: 5px;
-        grid-area: redesfooter;
-    }
-    
     .copy {
         grid-area: copy;
     }
-    
-    .redesfooter h3 {
-        margin-bottom: 10px;
+
+    .p {
+        padding: 5px; 
     }
-    
-    .contacto h3 {
-        margin-bottom: 10px;
-    }
-    
-    .footer a {
-        
-        padding: 3px;
-    }
-    
-    .footer p {
-        
-        padding: 5px;
-    }
-    
-    .footer h3 {
+
+    .h3 {
         
         font-family: 'Fredoka', sans-serif;
         font-weight: 400;
     
     }
-    
+}
+
+.redesfooter {
+    margin-bottom: 10px;
+    padding: 5px;
+    grid-area: redesfooter;
+       
+.h3 {
+    margin-bottom: 10px;
+}    
+
+.a {
+    padding: 3px;  
+}
+
+.img {
+    height: 30px;
+    width: 30px;
+}
+
+}
+ 
+ 
+
+@media screen and (max-width: 1024px) {
+
+    .footer {
+
+        width: 100%;
+        height: 350px;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "contacto"
+            "redesfooter"
+            "copy";
+        justify-content: center;
+    }
+
+    .contacto {
+        width: 100%;
+        grid-area: contacto;
+        text-align: center;
+        align-self: center;
+    }
+
+    .redesfooter {
+        width: 100%;
+        grid-area: redesfooter;
+        text-align: center;
+        align-self: center;
+    }
+
+    .copy {
+        width: 100%;
+        grid-area: copy;
+        text-align: center;
+        align-self: center;
+    }
+
+    .redesfooter h3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contacto h3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        width: 100%;
+        color: #fdfdfc;
+        padding: 3px;
+    }
+
+    .footer p {
+        width: 100%;
+        color: #fdfdfc;
+        padding: 5px;
+    }
+
+    .footer h3 {
+        width: 100%;
+        color: #fdfdfc;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 35px;
+
+
+    }
+
     .redesfooter img {
         height: 30px;
         width: 30px;
     }
-    
-      
-    
-    .pfooter {
-        background-color: #ffdd0f;
-        color: black;
-        font-family: 'Fredoka', sans-serif;
-        font-size: 15px;
-        font-weight: 300;
-    
-    }
-    
-    .pfooter a {
-        color: black;
-        font-family: 'Fredoka', sans-serif;
-        font-size: 15px;
-        font-weight: 700;
-    
-    }
+
+
 }

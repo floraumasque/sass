@@ -1,0 +1,57 @@
+.cajassemanales {
+    background-color: #fdfdfc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+.cajash {
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+
+.img {
+    width: 300px;
+    height:300px;
+}
+
+.h3 {
+    width: 300px;
+    text-align: center;
+    
+    color: rgb(100, 99, 99);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.h4 {
+    width: 300px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    color: rgb(100, 99, 99);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+
+
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .cajassemanales {
+       
+        grid-template-columns: 100%;
+        grid-template-rows: 25%;
+    }
+}

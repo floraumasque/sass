@@ -1,0 +1,45 @@
+.navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+
+
+    ul {
+        list-style-type: none;
+    
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: grey;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    
+    
+    }
+
+    ul li a:hover {
+        color: grey;
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navegador {
+
+        flex-direction: column;
+        margin: 0px;
+
+
+    }
+
+    .navegador li {
+        padding: 5px;
+    } 
+}

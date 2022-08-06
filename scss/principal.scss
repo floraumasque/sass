@@ -1,0 +1,48 @@
+@import "variables";
+@import "footer";
+@import "topheader";
+@import "navegador";
+@import "carrousel";
+@import "cardshome";
+@import "recetas";
+@import "cardsmayoristas";
+@import "formcontacto";
+@import "formmicuenta";
+@import "nosotros";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700px;
+}
+
+.secciones h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: grey;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    transition-timing-function: ease;
+
+    h2:hover {
+        color: black;
+    }
+}
+
+#whatsapp {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

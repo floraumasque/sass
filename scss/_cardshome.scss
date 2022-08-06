@@ -1,0 +1,30 @@
+.row {
+    background-color: #f1e9e9;
+    margin-bottom: 35px;
+    justify-content: space-around;
+   
+    .card {
+        width: 150px;
+        height: 430px; 
+        color: grey;
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    .btn-primary {
+        background-color: #ffdf0f7e;
+        color: #808080;
+        border-color: #ffdf0f7e;
+        --bs-btn-hover-color: #ffdd0f;
+        --bs-btn-hover-bg: #808080;
+        --bs-btn-hover-border-color: #808080;
+    }
+    
+ 
+}
