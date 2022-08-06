@@ -6,7 +6,7 @@
     margin-bottom: 20px;
 
 
-    .topheader img {
+    img {
         height: 40px;
         width: 40px;
         line-height: 30px;
@@ -19,14 +19,17 @@
     float: right;
     line-height: 30px;
 
-    .topnav a {
+    a {
         font-size: 15px;
         font-weight: 700px;
-    
-    
+        color: grey;
         display: inline-block;
         text-decoration: none;
         padding: 5px 5px;
+
+        &:hover {
+            font-weight: 600;
+        }
     }
 }
 
@@ -34,7 +37,7 @@
 
     height: 150px;
 
-    .middleheader img {
+    img {
         height: 140px;
         width: 140px;
     }

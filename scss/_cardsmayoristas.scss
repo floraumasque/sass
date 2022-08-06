@@ -10,7 +10,7 @@
         "productosm1 productosm2 productosm3 productosm4"
         "productosm5 productosm6 productosm7 productosm8"
 
-    ;
+    ;}
 
     .productosm1 {
         grid-area: productosm1;
@@ -44,7 +44,7 @@
         grid-area: productosm8;
     }
     
-}
+
 
 .productosm {
     width: 250px;
@@ -55,13 +55,13 @@
     -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
 
-.img {
+img {
     height: 200px;
     width: 200px;
     object-fit: contain ;
 }
 
-.h3 {
+h3 {
     text-align: center;
     color: rgb(100, 99, 99);
     font-family: 'Fredoka', sans-serif;
@@ -69,7 +69,7 @@
     font-weight: 400;
 
 }
-.h4 {
+h4 {
     text-align: center;
     color: rgb(100, 99, 99);
     font-family: 'Fredoka', sans-serif;

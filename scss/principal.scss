@@ -5,6 +5,7 @@
 @import "carrousel";
 @import "cardshome";
 @import "recetas";
+@import "cardscajassemanales";
 @import "cardsmayoristas";
 @import "formcontacto";
 @import "formmicuenta";
@@ -34,10 +35,12 @@ body {
     font-weight: 300;
     transition-timing-function: ease;
 
-    h2:hover {
+    &:hover {
         color: black;
     }
 }
+
+
 
 #whatsapp {
     height: 50px;
