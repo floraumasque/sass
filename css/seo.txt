@@ -1,0 +1,21 @@
+Index.html
+Agregué las siguientes keywords: "bolsones de verdura, bolsones de fruta, bolson de frutas y verduras, caja de verduras, caja de frutas y verduras, entrega a domicilio verduras, entrega a domicilio frutas, entrega a domicilio frutas y verduras, caba, bsas, zona norte, zona sur, zona oeste, zona este"
+
+Cajas.html
+Agregué las siguientes keywords: "bolsones de verdura, bolsones de fruta, bolson de frutas y verduras, caja de verduras, caja de frutas y verduras, entrega a domicilio verduras, entrega a domicilio frutas, entrega a domicilio frutas y verduras, caba, bsas, zona norte, zona sur, zona oeste, zona este, comprar frutas y verduras, bolson semanal, caja semanal"
+
+Contacto.html
+Agregué las siguientes keywords: "bolsones de verdura, bolsones de fruta, bolson de frutas y verduras, caja de verduras, caja de frutas y verduras, entrega a domicilio verduras, entrega a domicilio frutas, entrega a domicilio frutas y verduras, caba, bsas, zona norte, zona sur, zona oeste, zona este, contacto Natifrut"
+
+Mayoristas.html
+Agregué las siguientes keywords: "bolsones de verdura, bolsones de fruta, bolson de frutas y verduras, caja de verduras, caja de frutas y verduras, entrega a domicilio verduras, entrega a domicilio frutas, entrega a domicilio frutas y verduras, caba, bsas, zona norte, zona sur, zona oeste, zona este, mayoristas de frutas, mayorista de verduras, mayorista de frutas y verduras, comprar mayorista"
+
+Micuenta.html
+Agregué las siguientes keywords: "bolsones de verdura, bolsones de fruta, bolson de frutas y verduras, caja de verduras, caja de frutas y verduras, entrega a domicilio verduras, entrega a domicilio frutas, entrega a domicilio frutas y verduras, caba, bsas, zona norte, zona sur, zona oeste, zona este, mi cuenta Natifrut"
+
+Nosotro.html
+Agregué las siguientes keywords: "bolsones de verdura, bolsones de fruta, bolson de frutas y verduras, caja de verduras, caja de frutas y verduras, entrega a domicilio verduras, entrega a domicilio frutas, entrega a domicilio frutas y verduras, caba, bsas, zona norte, zona sur, zona oeste, zona este, historia Natifrut"
+
+
+En todos los html agregué la siguiente etiqueta de descripción y Favicon 
+"Natifrut venta minorista y mayorista de frutas y verduras"

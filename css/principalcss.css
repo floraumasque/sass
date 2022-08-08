@@ -355,18 +355,32 @@ li a {
 .seccionnosotros {
   background-color: #fdfdfc;
   margin-top: 50px;
-  margin-bottom: 50px;
-  color: #4b4848; }
+  margin-bottom: 50px; }
 
-.productores {
-  margin: 50px; }
-  .productores h3 {
-    margin-bottom: 5px; }
+.productores, .fondo-contenedor {
+  font-weight: 100;
+  height: 600px;
+  width: 1000px;
+  padding: 10px; }
 
 .menosplastico {
-  margin: 50px; }
-  .menosplastico .h3 {
-    margin-bottom: 5px; }
+  margin-top: 50px; }
+
+.size-nosotros-1 {
+  font-size: 30px; }
+
+.size-nosotros-2 {
+  font-size: 15px; }
+
+.nosotros-titulo {
+  color: #ffdd0f; }
+
+.nosotros-parrafo {
+  color: #4b4848; }
+
+.fondo-contenedor {
+  background-color: #ece8e8;
+  padding: 10px; }
 
 * {
   margin: 0;
