@@ -1,102 +1,92 @@
 .productosmayoristas {
+  background-color: #fdfdfc;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-items: center;
 
-    background-color: #fdfdfc;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-items: center;
+  display: grid;
+  grid-template-areas:
+    "productosm1 productosm2 productosm3 productosm4"
+    "productosm5 productosm6 productosm7 productosm8";
+}
 
-    display: grid;
-    grid-template-areas:
-        "productosm1 productosm2 productosm3 productosm4"
-        "productosm5 productosm6 productosm7 productosm8"
+.productosm1 {
+  grid-area: productosm1;
+}
 
-    ;}
+.productosm2 {
+  grid-area: productosm2;
+}
 
-    .productosm1 {
-        grid-area: productosm1;
-    }
-    
-    .productosm2 {
-        grid-area: productosm2;
-    }
-    
-    .productosm3 {
-        grid-area: productosm3;
-    }
-    
-    .productosm4 {
-        grid-area: productosm4;
-    }
-    
-    .productosm5 {
-        grid-area: productosm5;
-    }
-    
-    .productosm6 {
-        grid-area: productosm6;
-    }
-    
-    .productosm7 {
-        grid-area: productosm7;
-    }
-    
-    .productosm8 {
-        grid-area: productosm8;
-    }
-    
+.productosm3 {
+  grid-area: productosm3;
+}
 
+.productosm4 {
+  grid-area: productosm4;
+}
+
+.productosm5 {
+  grid-area: productosm5;
+}
+
+.productosm6 {
+  grid-area: productosm6;
+}
+
+.productosm7 {
+  grid-area: productosm7;
+}
+
+.productosm8 {
+  grid-area: productosm8;
+}
 
 .productosm {
-    width: 250px;
-    height: 350px;
-    text-align: center;
-    margin: 10px;
-    box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
 
-img {
+  img {
     height: 200px;
     width: 200px;
-    object-fit: contain ;
-}
+    object-fit: contain;
+  }
 
-h3 {
+  h3 {
     text-align: center;
     color: rgb(100, 99, 99);
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-size: 15px;
     font-weight: 400;
-
-}
-h4 {
+  }
+  h4 {
     text-align: center;
     color: rgb(100, 99, 99);
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-size: 15px;
     font-weight: 200;
-
-}
-
+  }
 }
 
 @media screen and (max-width: 1080px) {
-    .productosmayoristas {
-        grid-template-areas:
-        "productosm1 productosm2"
-        "productosm3 productosm4"
-        "productosm5 productosm6"
-        "productosm7 productosm8"
-
-    }
+  .productosmayoristas {
+    grid-template-areas:
+      "productosm1 productosm2"
+      "productosm3 productosm4"
+      "productosm5 productosm6"
+      "productosm7 productosm8";
+  }
 }
 
 @media screen and (max-width: 524px) {
-    .productosmayoristas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .productosmayoristas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
-

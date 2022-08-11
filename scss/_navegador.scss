@@ -1,45 +1,38 @@
 .navegador {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
 
-
-    ul {
-        list-style-type: none;
-    
-    }
-
+  ul {
+    list-style-type: none;
+  }
 }
 
 li {
-    a {
+  a {
     text-decoration: none;
     color: grey;
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Fredoka", sans-serif;
     font-size: 20px;
     font-weight: 400;
 
     &:hover {
-        color: grey;
-        font-family: 'Fredoka', sans-serif;
-        font-weight: 600;
+      color: grey;
+      font-family: "Fredoka", sans-serif;
+      font-weight: 600;
     }
-
-}}
+  }
+}
 
 @media screen and (max-width: 1024px) {
+  .navegador {
+    flex-direction: column;
+    margin: 0px;
+  }
 
-    .navegador {
-
-        flex-direction: column;
-        margin: 0px;
-
-
-    }
-
-    .navegador li {
-        padding: 5px;
-    } 
+  .navegador li {
+    padding: 5px;
+  }
 }

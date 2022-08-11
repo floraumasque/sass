@@ -1,65 +1,52 @@
-
 .seccionnosotros {
-    background-color: #fdfdfc;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-    
+  background-color: #fdfdfc;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 // Mixin
 
-@mixin size ($alto, $ancho, $padding) {
-    height: $alto;
-    width: $ancho;
-    padding: $padding;
-   
+@mixin size($alto, $ancho, $padding) {
+  height: $alto;
+  width: $ancho;
+  padding: $padding;
 }
 
- .productores {
-   font-weight: 100;
-   @include size(200px, 100%, 10px);
+.productores {
+  font-weight: 100;
+  @include size(250px, 100%, 10px);
 }
-
 
 .menosplastico {
-    margin-top: 50px;
-
-   
+  margin-top: 50px;
 }
 
 // Bucle
 
 @for $x from 1 through 2 {
-    .size-nosotros-#{$x} {
-        font-size: 30px / $x;
-    }
+  .size-nosotros-#{$x} {
+    font-size: 30px / $x;
+  }
 }
-
 
 // Mapas
 
 $nosotros: (
-    titulo: #ffdd0f,
-    parrafo: #4b4848,
-  
+  titulo: #ffdd0f,
+  parrafo: #4b4848,
 );
 
 @each $nosotros, $color in $nosotros {
-    .nosotros-#{$nosotros} {
-        color: $color;
-            }
-    }
-
+  .nosotros-#{$nosotros} {
+    color: $color;
+  }
+}
 
 // Extend
 
 .fondo-contenedor {
-    @extend .productores;
+  @extend .productores;
 
-    background-color: #ece8e8;
-    padding: 10px;
-    
+  background-color: #ece8e8;
+  padding: 10px;
 }
-
-

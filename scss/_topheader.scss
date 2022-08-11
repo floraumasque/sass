@@ -1,45 +1,41 @@
 .topheader {
+  width: 100%;
+  background-color: #ffdd0f;
+  overflow: hidden;
+  margin-bottom: 20px;
 
-    width: 100%;
-    background-color: #ffdd0f;
-    overflow: hidden;
-    margin-bottom: 20px;
-
-
-    img {
-        height: 40px;
-        width: 40px;
-        line-height: 30px;
-        float: left;
-        padding: 5px;
-    }
+  img {
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    float: left;
+    padding: 5px;
+  }
 }
 
 .topnav {
-    float: right;
-    line-height: 30px;
+  float: right;
+  line-height: 30px;
 
-    a {
-        font-size: 15px;
-        font-weight: 700px;
-        color: grey;
-        display: inline-block;
-        text-decoration: none;
-        padding: 5px 5px;
+  a {
+    font-size: 15px;
+    font-weight: 700px;
+    color: grey;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 5px;
 
-        &:hover {
-            font-weight: 600;
-        }
+    &:hover {
+      font-weight: 600;
     }
+  }
 }
 
 .middleheader {
+  height: 150px;
 
-    height: 150px;
-
-    img {
-        height: 140px;
-        width: 140px;
-    }
-    
+  img {
+    height: 140px;
+    width: 140px;
+  }
 }
