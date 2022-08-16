@@ -359,12 +359,14 @@ li a {
 
 .productores, .fondo-contenedor {
   font-weight: 100;
+  overflow: hidden;
   height: 250px;
   width: 100%;
   padding: 10px; }
 
 .menosplastico {
-  margin-top: 50px; }
+  margin-top: 50px;
+  overflow: hidden; }
 
 .size-nosotros-1 {
   font-size: 30px; }
@@ -381,9 +383,6 @@ li a {
 .fondo-contenedor {
   background-color: #ece8e8;
   padding: 10px; }
-
-.nosotros-parrafo {
-  overflow: hidden; }
 
 * {
   margin: 0;

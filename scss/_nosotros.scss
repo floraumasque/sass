@@ -20,6 +20,7 @@
 
 .menosplastico {
   margin-top: 50px;
+  overflow: hidden;
 }
 
 // Bucle
@@ -52,6 +53,3 @@ $nosotros: (
   padding: 10px;
 }
 
-.nosotros-parrafo {
-  overflow: hidden;
-}
