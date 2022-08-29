@@ -1,41 +1,66 @@
-.form {
-  background-color: #fdfdfc;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.form-contacto {
+  height: 500px !important;
+  width: 100% !important;
+  box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
   color: #4b4848;
 
-  .label {
-    padding: 15px;
-  }
+  display: flex;
+  
 }
 
-.textoform input {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.form-contacto-cont {
+  margin-top: 30px;
 }
 
-.enviar {
-  margin-top: 15px;
-  margin-left: 165px;
-  margin-bottom: 25px;
+.form-control {
+  width: 300px;
+}
+
+.primeraseccion {
+  width: 50% !important;
+}
+
+.segundaseccion {
+  width: 50% !important;
+  text-align: center;}
+   
+.radio-button{
+  text-align: center;
 }
 
 .newsletter {
-  margin-left: 15px;
+  margin-top: 30px;
   font-weight: 600;
+  font-size: 25px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
-.radio {
-  margin-left: 55px;
+.int{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.int {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.aceptar{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.aceptar {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.logocont{
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+  
+
+@media screen and (max-width: 682px){
+  .segundaseccion{
+    visibility: hidden;
+  }
 }

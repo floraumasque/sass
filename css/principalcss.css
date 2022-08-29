@@ -113,7 +113,9 @@
       font-weight: 600; }
 
 .middleheader {
-  height: 150px; }
+  height: 150px;
+  display: flex;
+  justify-content: center; }
   .middleheader img {
     height: 140px;
     width: 140px; }
@@ -307,50 +309,73 @@ li a {
     flex-direction: column;
     align-items: center; } }
 
-.form {
-  background-color: #fdfdfc;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  color: #4b4848; }
-  .form .label {
-    padding: 15px; }
+.form-contacto {
+  height: 500px !important;
+  width: 100% !important;
+  box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: #4b4848;
+  display: flex; }
 
-.textoform input {
-  margin-top: 5px;
-  margin-bottom: 5px; }
+.form-contacto-cont {
+  margin-top: 30px; }
 
-.enviar {
-  margin-top: 15px;
-  margin-left: 165px;
-  margin-bottom: 25px; }
+.form-control {
+  width: 300px; }
+
+.primeraseccion {
+  width: 50% !important; }
+
+.segundaseccion {
+  width: 50% !important;
+  text-align: center; }
+
+.radio-button {
+  text-align: center; }
 
 .newsletter {
-  margin-left: 15px;
+  margin-top: 30px;
   font-weight: 600;
-  margin-bottom: 5px; }
-
-.radio {
-  margin-left: 55px; }
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: center; }
 
 .int {
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .aceptar {
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.logocont {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px; }
+
+@media screen and (max-width: 682px) {
+  .segundaseccion {
+    visibility: hidden; } }
 
 .micuenta {
   background-color: #fdfdfc;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 30px;
   color: #4b4848; }
-  .micuenta .acceder h3 {
-    padding: 10px;
-    color: #4b4848;
-    font-weight: 500; }
-  .micuenta .form-text {
-    padding: 20px; }
+
+.acceder h3 {
+  padding: 10px;
+  color: #4b4848;
+  font-weight: 500; }
+
+.form-text {
+  padding: 20px; }
 
 .seccionnosotros {
   background-color: #fdfdfc;

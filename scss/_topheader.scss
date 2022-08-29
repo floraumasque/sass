@@ -33,9 +33,15 @@
 
 .middleheader {
   height: 150px;
-
+  display: flex;
+  justify-content: center;
+  
+  
   img {
     height: 140px;
     width: 140px;
+    
+    
+    
   }
 }
